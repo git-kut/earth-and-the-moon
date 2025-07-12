@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow: hidden;
+  font-family: "Roboto";
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+.credit {
+  position: absolute;
+  color: aliceblue;
+  bottom: 5px;
+  right: 5px;
+}
+
+.link {
+  font-weight: bold;
+  text-decoration: none;
+  color: lightgray;
+}
