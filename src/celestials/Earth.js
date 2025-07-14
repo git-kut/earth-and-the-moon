@@ -10,7 +10,7 @@ export class Earth {
     const dayTexture = textureLoader.load("./earth/day.jpg");
     const nightTexture = textureLoader.load("./earth/night.jpg");
     const cloudsTexture = textureLoader.load("./earth/specularClouds.jpg");
-    const normalTexture = textureLoader.load("./earth/earthNormal.tif");
+    const normalTexture = textureLoader.load("./earth/earth_normal.png");
 
     dayTexture.colorSpace = THREE.SRGBColorSpace;
     dayTexture.anisotropy = 8;
