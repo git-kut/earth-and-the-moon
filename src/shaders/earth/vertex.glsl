@@ -7,7 +7,7 @@ varying vec3 vPosition;
 void main() {
     // Normal Map
     vec3 normalTexture = texture2D(uNormalTexture, uv).rgb;
-    float displacement = normalTexture.y * 20.0; // strength
+    float displacement = normalTexture.y * 0.1; // strength
     vec3 newPosition = position + normal * displacement;
 
     // Position
