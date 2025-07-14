@@ -13,4 +13,3 @@ void main() {
     vNormal = modelNormal;
     vPosition = modelPosition.xyz;
 }
-
