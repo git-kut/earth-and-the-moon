@@ -19,7 +19,7 @@ export class Earth {
     cloudsTexture.anisotropy = 8;
     normalTexture.anisotropy = 8;
 
-    const geometry = new THREE.SphereGeometry(2, 64, 64);
+    const geometry = new THREE.SphereGeometry(2, 96, 96);
 
     this.material = new THREE.ShaderMaterial({
       vertexShader: earthVertexShader,

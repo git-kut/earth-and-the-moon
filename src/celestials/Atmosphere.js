@@ -21,7 +21,7 @@ export class Atmosphere {
     });
 
     this.mesh = new THREE.Mesh(earthGeometry, this.material);
-    this.mesh.scale.set(1.02, 1.02, 1.02);
+    this.mesh.scale.set(1.07, 1.07, 1.07);
   }
 
   updateSunDirection(direction) {

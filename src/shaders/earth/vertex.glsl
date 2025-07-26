@@ -8,7 +8,7 @@ void main() {
     // Normal Map
     vec3 normalTexture = texture2D(uNormalTexture, uv).rgb;
     float displacement = normalTexture.y * 0.2; // strength
-    vec3 newPosition = position + normal * displacement;
+    vec3 newPosition = position + (normal * displacement);
 
     // Position
     vec4 modelPosition = modelMatrix * vec4(newPosition, 1.0);
